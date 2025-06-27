@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Modern Sign-Up</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="signup-card">
+    <h2>Create an Account</h2>
+    <p>Join us today to enjoy exclusive features</p>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Your full name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="you@example.com" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Create a password" required />
+
+      <label for="confirm-password">Confirm Password</label>
+      <input type="password" id="confirm-password" placeholder="Confirm your password" required />
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="terms" required />
+        <label for="terms" class="terms">I agree to the Terms & Conditions</label>
+      </div>
+
+      <button type="submit" class="signup-btn">Sign Up</button>
+
+      <div class="social-buttons">
+        <div class="social-btn" title="Sign up with Google">
+          <!-- Insert Google Icon -->
+          <img src="https://img.icons8.com/color/24/000000/google-logo.png" alt="Google" />
+        </div>
+        <div class="social-btn" title="Sign up with Facebook">
+          <!-- Insert Facebook Icon -->
+          <img src="https://img.icons8.com/color/24/000000/facebook-new.png" alt="Facebook" />
+        </div>
+        <div class="social-btn" title="Sign up with Twitter">
+          <!-- Insert Twitter Icon -->
+          <img src="https://img.icons8.com/color/24/000000/twitter.png" alt="Twitter" />
+        </div>
+      </div>
+    </form>
+    <div class="footer">
+      Already have an account? <a href="#">Sign in</a>
+    </div>
+  </div>
+</body>
+</html>
